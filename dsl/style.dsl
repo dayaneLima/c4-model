@@ -12,7 +12,10 @@ styles {
     element "Container" {
         background #9a28f8
     }
-        element "Database" {
+    element "Database" {
+        shape cylinder
+    }
+    element "type:database" {
         shape cylinder
     }
 }
